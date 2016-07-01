@@ -42,6 +42,7 @@ Go to `Project > Edit Project` to change project settings.
     {
         "Stylus":
         {
+            "binDir": "./node_modules/.bin",
             "compress": false,
             "compileOnSave": true,
             "compileDir": "out"

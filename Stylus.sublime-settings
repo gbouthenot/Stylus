@@ -12,6 +12,8 @@
 	/*
 		The directory containing your stylus binary. Usually
 		/usr/local/bin or /usr/bin.
+		If binDir begins with "./", then it is replaced by the first path of the project.
+		Set bindir to "./node_modules/.bin", and it will use the locally installed coffee.
 	*/
 	"binDir": "/usr/local/bin",
 
